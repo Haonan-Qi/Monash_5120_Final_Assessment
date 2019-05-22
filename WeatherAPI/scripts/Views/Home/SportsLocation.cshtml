@@ -1,0 +1,196 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+
+
+
+
+<html lang="en">
+<!--头部-->
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1, width=device-width'>
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/Content/style.css">
+    <link rel="stylesheet" href="~/styles.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicon-16x16.png">
+    <link rel="shortcut icon" href="~/img/favicon.ico">
+
+</head>
+<!--主体-->
+<body class="idance">
+    <!--载入页面-->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">Loading...</div>
+    </div>
+    <!--导航页面-->
+    <nav class="navbar navbar-expand-md navbar-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#" data-scroll-goto="0">Time 2 GO </a>
+            <!-- Navbar toggler. Shown for mobile devices (https://getbootstrap.com/docs/4.0/components/navbar/#toggler) -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#idanceNav"
+                    aria-controls="idanceNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <!-- Navbar -->
+            <div class="collapse navbar-collapse" id="idanceNav">
+                <i class="fa fa-times close-navbar-mobile" aria-hidden="true" data-toggle="collapse" data-target="#idanceNav"></i>
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="@Url.Action("Index","Home")" class="nav-link">Home</a></li>
+                    <li><a href="@Url.Action("SportsIntroduction","Home")" class="nav-link">Sports Introduction</a></li>
+                    <li><a href="@Url.Action("SportsLocation","Home")" class="nav-link">Sports Location</a></li>
+                    <li><a href="@Url.Action("Calories","Home")" class="nav-link">Calories Schedule</a></li>
+                    <li><a href="@Url.Action("Weather","Home")" class="nav-link">Weather</a></li>
+                    <li><a href="@Url.Action("Food","Home")" class="nav-link">Healthy Eating</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    <!--运动器材搜索页面-->
+    <section data-scroll-index="4" class="sportslocation content-block bg-darken">
+        <div class="container">
+            <h2 data-aos="zoom-in-up" style="color:white;"><b>Sports Location</b></h2>
+
+            <div class="row card">
+
+                @using (Html.BeginForm("SportsLocation", "Home", FormMethod.Get))
+                {
+                <div style="color:white;font-family:sans-serif">
+                    <b>Search Sports location by PostCode:</b>    @Html.TextBox("searchPostCode")
+
+
+
+                    <b> your favourate sports: </b>  @Html.DropDownList("searchSports", new List<SelectListItem>
+{ new SelectListItem { Text = "Aerobics", Value = "Aerobics"},
+new SelectListItem { Text = "Archery", Value = "Archery"},
+new SelectListItem { Text = "Athletics", Value = "Athletics"},
+new SelectListItem { Text = "Australian Rules Football", Value = "Australian Rules Football"},
+new SelectListItem { Text = "Badminton", Value = "Badminton"},
+new SelectListItem { Text = "Baseball", Value = "Baseball"},
+new SelectListItem { Text = "Basketball", Value = "Basketball"},
+new SelectListItem { Text = "Bocce", Value = "Bocce"},
+new SelectListItem { Text = "Boxing", Value = "Boxing"},
+new SelectListItem { Text = "Cricket", Value = "Cricket"},
+new SelectListItem { Text = "Cricket (Indoor)", Value = "Cricket (Indoor)"},
+new SelectListItem { Text = "Croquet", Value = "Croquet"},
+new SelectListItem { Text = "Cycling", Value = "Cycling"},
+new SelectListItem { Text = "Dancing", Value = "Dancing"},
+new SelectListItem { Text = "Equestrian", Value = "Equestrian"},
+new SelectListItem { Text = "Fitness / Gymnasium Workouts", Value = "Fitness / Gymnasium Workouts"},
+new SelectListItem { Text = "Golf", Value = "Golf"},
+new SelectListItem { Text = "Gridiron", Value = "Gridiron"},
+new SelectListItem { Text = "Gymnastics", Value = "Gymnastics"},
+new SelectListItem { Text = "Hockey", Value = "Hockey"},
+new SelectListItem { Text = "Karate", Value = "Karate"},
+new SelectListItem { Text = "Lacrosse", Value = "Lacrosse"},
+new SelectListItem { Text = "Lawn Bowls", Value = "Lawn Bowls"},
+new SelectListItem { Text = "Martial Arts", Value = "Martial Arts"},
+new SelectListItem { Text = "Netball", Value = "Netball"},
+new SelectListItem { Text = "Netball (Indoor)", Value = "Netball (Indoor)"},
+new SelectListItem { Text = "Rugby League", Value = "Rugby League"},
+new SelectListItem { Text = "Rugby Union", Value = "Rugby Union"},
+new SelectListItem { Text = "Sailing", Value = "Sailing"},
+new SelectListItem { Text = "Skating ", Value = "Skating"},
+new SelectListItem { Text = "Soccer", Value = "Soccer"},
+new SelectListItem { Text = "Soccer (Indoor Soccer / Futsal)", Value = "Soccer (Indoor Soccer / Futsal)"},
+new SelectListItem { Text = "Softball", Value = "Softball"},
+new SelectListItem { Text = "Swimming", Value = "Swimming"},
+new SelectListItem { Text = "Table Tennis", Value = "Table Tennis"},
+new SelectListItem { Text = "Tennis (Indoor)", Value = "Tennis (Indoor)"},
+new SelectListItem { Text = "Tennis (Outdoor)", Value = "Tennis (Outdoor)"},
+new SelectListItem { Text = "Volleyball", Value = "Volleyball"}
+}, "")
+                    <input id="Button1" type="submit" value="Confirm" /><p style="color:white;font-family:sans-serif">
+                </div>
+
+
+                    <p style="color:white;">(If there is no result shown that means the sports activity selected is unavailable in the location selected - choose another location or sports activity.) </p>
+                }
+
+
+
+
+
+
+
+
+                <table class="table" id="data" style="color:white;font-family:sans-serif" >
+                    <tr>
+
+                        <th>
+                            Name
+                        </th>
+                        <th>
+                            Sports
+                        </th>
+                        <th>
+                            Street Location
+                        </th>
+                        <th>
+                            Sports Facility Condition
+                        </th>
+                        <th>
+                            PostCode
+                        </th>
+
+
+                    </tr>
+
+
+
+                    @foreach (List<String> s in ViewBag.list)
+                    {
+                        <tr>
+                            <td>@s[0]</td>
+                            <td>@s[1]</td>
+                            <td>@s[2]</td>
+                            <td>@s[3]</td>
+                            <td>@s[4]</td>
+                            <td>@Html.ActionLink("ViewMap", "Map", new { Latitude = @s[5], Longtitude = @s[6]})</td>
+                        </tr>
+                    }
+
+
+
+
+
+
+
+
+
+                </table>
+
+
+
+            </div>
+
+
+        </div>
+    </section>
+   
+
+
+    <script src="~/scripts.min.js"></script>
+
+</body>
+</html>
+
+
+

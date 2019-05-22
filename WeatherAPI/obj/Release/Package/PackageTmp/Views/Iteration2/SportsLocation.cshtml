@@ -1,0 +1,165 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html lang="en">
+<!--头部-->
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Kalam:700|Kreon:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<!--主体-->
+<body style="background-color: #343a40 !important;height:100vh;background-attachment: scroll;background-image:url(https://images.unsplash.com/photo-1445384763658-0400939829cd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=7ca46aca5c7817d7ff48b3273e35b119);background-size:cover;background-attachment:fixed">
+
+    <!--导航栏部分-->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom shadow-sm" style="background-color: #f8f9fa63">
+        <a class="navbar-brand" href="@Url.Action("Index","Home")" style="font-size: 2rem;font-family: 'Kreon', serif;">Time 2 Go</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <ul class="navbar-nav" style="margin-left:auto;font-family: 'Kreon', serif;font-size: x-large;font-weight: 300">
+                <li><a href="@Url.Action("Index","Iteration2")" class="nav-link">Home</a></li>
+                <li><a href="@Url.Action("SportsLocation","Iteration2")" class="nav-link">Sports Location</a></li>
+                <li><a href="@Url.Action("Calories","Iteration2")" class="nav-link">Calories Schedule</a></li>
+                <li><a href="@Url.Action("Food","Iteration2")" class="nav-link">Healthy Eating</a></li>
+                <li><a href="@Url.Action("Weather","Iteration2")" class="nav-link">Weather</a></li>
+                <li><a href="@Url.Action("SportsIntroduction","Iteration2")" class="nav-link">Sports Rules</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--运动器材搜索页面-->
+    <div class="container">
+        <div class="row">
+            <h2 data-aos="zoom-in-up" style="color:white;font-family: 'Kreon';margin-left: auto;margin-right: auto;margin-top: 10vh;background-color: #58696acc;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;border-radius:10px;"><b>Sports Location</b></h2>
+        </div>
+    </div>
+    <div class="container" style="max-height:80vh;background-color:#927076b3;margin-top:5vh;border-radius:30px;font-family: 'Kreon';padding-left: 80px;padding-top: 30px;padding-bottom: 30px;">
+        <div class="row">
+            <form action="/Iteration2/SportsLocation" method="get">
+                <div style="color:white;">
+                    <b>Search sports location by postcode:</b>    <input id="searchPostCode" name="searchPostCode" value="" type="text">
+
+
+
+                    <b> Pick a sport: </b>  <select id="searchSports" name="searchSports">
+                        <option value=""></option>
+                        <option selected="selected" value="Aerobics">Aerobics</option>
+                        <option value="Archery">Archery</option>
+                        <option value="Athletics">Athletics</option>
+                        <option value="Australian Rules Football">Australian Rules Football</option>
+                        <option value="Badminton">Badminton</option>
+                        <option value="Baseball">Baseball</option>
+                        <option value="Basketball">Basketball</option>
+                        <option value="Bocce">Bocce</option>
+                        <option value="Boxing">Boxing</option>
+                        <option value="Cricket">Cricket</option>
+                        <option value="Cricket (Indoor)">Cricket (Indoor)</option>
+                        <option value="Croquet">Croquet</option>
+                        <option value="Cycling">Cycling</option>
+                        <option value="Dancing">Dancing</option>
+                        <option value="Equestrian">Equestrian</option>
+                        <option value="Fitness / Gymnasium Workouts">Fitness / Gymnasium Workouts</option>
+                        <option value="Golf">Golf</option>
+                        <option value="Gridiron">Gridiron</option>
+                        <option value="Gymnastics">Gymnastics</option>
+                        <option value="Hockey">Hockey</option>
+                        <option value="Karate">Karate</option>
+                        <option value="Lacrosse">Lacrosse</option>
+                        <option value="Lawn Bowls">Lawn Bowls</option>
+                        <option value="Martial Arts">Martial Arts</option>
+                        <option value="Netball">Netball</option>
+                        <option value="Netball (Indoor)">Netball (Indoor)</option>
+                        <option value="Rugby League">Rugby League</option>
+                        <option value="Rugby Union">Rugby Union</option>
+                        <option value="Sailing">Sailing</option>
+                        <option value="Skating">Skating </option>
+                        <option value="Soccer">Soccer</option>
+                        <option value="Soccer (Indoor Soccer / Futsal)">Soccer (Indoor Soccer / Futsal)</option>
+                        <option value="Softball">Softball</option>
+                        <option value="Swimming">Swimming</option>
+                        <option value="Table Tennis">Table Tennis</option>
+                        <option value="Tennis (Indoor)">Tennis (Indoor)</option>
+                        <option value="Tennis (Outdoor)">Tennis (Outdoor)</option>
+                        <option value="Volleyball">Volleyball</option>
+                    </select>
+                    <input id="Button1" value="Confirm" type="submit"><p style="color:white;">
+                    </p>
+                </div>
+                <p style="color:white;">(If there is no result shown that means the sports activity selected is unavailable in the location selected - choose another location or sports activity.) </p>
+            </form>
+        </div>
+        <div class="row">
+            <div class="table-wrapper-scroll-y" style="display:block;  max-height: 400px;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;">
+                <table class="table" id="data" style="color:white;">
+                    <thead>
+                        <tr>
+
+                            <th>
+                                Name
+                            </th>
+                            <th>
+                                Sports
+                            </th>
+                            <th>
+                                Street Location
+                            </th>
+                            <th>
+                                Sports Facility Condition
+                            </th>
+                            <th>
+                                Postcode
+                            </th>
+
+
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        @foreach (List<String> s in ViewBag.list)
+                        {
+                            <tr>
+                                <td>@s[0]</td>
+                                <td>@s[1]</td>
+                                <td>@s[2]</td>
+                                <td>@s[3]</td>
+                                <td>@s[4]</td>
+                                <td>@Html.ActionLink("ViewMap", "Map", new { Latitude = @s[5], Longtitude = @s[6] })</td>
+                            </tr>
+                        }
+
+
+                    </tbody>
+
+
+
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="~/scripts.min.js"></script>
+
+</body>
+</html>
+
+
+

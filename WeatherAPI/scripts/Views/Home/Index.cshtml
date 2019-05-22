@@ -1,0 +1,146 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<html lang="en">
+<!--头部-->
+<head>
+    <script language="JavaScript">
+    <!--
+        var password;
+        var pass1 = "superGai";
+        password = prompt('Please enter the password:', '');
+        if (password == pass1)
+            alert('Right password, click OK to enter');
+        else {
+            window.close();
+        }
+
+          // -->
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content='width=device-width, initial-scale=1, width=device-width'>
+
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/Content/style.css">
+    <link rel="stylesheet" href="~/styles.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicon-16x16.png">
+    <link rel="shortcut icon" href="~/img/favicon.ico">
+
+</head>
+<!--主体-->
+<body class="idance">
+    <!--载入页面-->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">Loading...</div>
+    </div>
+    <!--导航页面-->
+    <nav class="navbar navbar-expand-md navbar-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#" data-scroll-goto="0">Time 2 GO </a>
+            <!-- Navbar toggler. Shown for mobile devices (https://getbootstrap.com/docs/4.0/components/navbar/#toggler) -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#idanceNav"
+                    aria-controls="idanceNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <!-- Navbar -->
+            <div class="collapse navbar-collapse" id="idanceNav">
+                <i class="fa fa-times close-navbar-mobile" aria-hidden="true" data-toggle="collapse" data-target="#idanceNav"></i>
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="@Url.Action("Index","Home")" class="nav-link">Home</a></li>
+                    <li><a href="@Url.Action("SportsIntroduction","Home")" class="nav-link">Sports Introduction</a></li>
+                    <li><a href="@Url.Action("SportsLocation","Home")" class="nav-link">Sports Location</a></li>
+                    <li><a href="@Url.Action("Calories","Home")" class="nav-link">Calories Schedule</a></li>
+                    <li><a href="@Url.Action("Weather","Home")" class="nav-link">Weather</a></li>
+                    <li><a href="@Url.Action("Food","Home")" class="nav-link">Healthy Eating</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Home页面-->
+    <section data-scroll-index="0" class="home bg-darken" style="z-index: 1">
+        <div class="jumbotron">
+            <h1 data-aos="zoom-in-up" data-aos-delay="100"><b>Welcome to Time2Go! - The website that makes sports accesssible</b></h1>
+        </div>
+    </section>
+
+    <script src="~/scripts.min.js"></script>
+
+</body>
+</html>
+
+
+<!--Weather-->
+<!--<script>
+    $(document).ready(function () {
+
+        $.get("http://api.openweathermap.org/data/2.5/forecast?q=Melbourne&APPID=a0455ab80971a4f3f0016ea77a206925&units=imperial", function (response) {
+            //response
+            console.log(response);
+            var ctemp1 = parseInt((response.list[0].main.temp-32)*5/9);
+            $("#name1").text(response.city.name + " Weather Report");
+            $("#temp1").text(ctemp1 + "°C");
+            $("#humidity1").text(response.list[0].main.humidity);
+            $("#weather1").text(response.list[0].weather[0].description);
+            $("#date1").text(response.list[8].dt_txt[0]);
+
+            var ctemp2 = parseInt((response.list[8].main.temp - 32) * 5 / 9);
+            var dt2 = ""
+            for (var i = 5; i < 10; i++) {
+                dt2 = dt2 + response.list[8].dt_txt[i];
+            }
+            $("#date2").text(dt2);
+            $("#temp2").text(ctemp2 + "°C");
+            $("#humidity2").text(response.list[8].main.humidity);
+            $("#weather2").text(response.list[8].weather[0].description);
+
+            var ctemp3 = parseInt((response.list[16].main.temp - 32) * 5 / 9);
+            var dt3 = ""
+            for (var i = 5; i < 10; i++) {
+                dt3 = dt3 + response.list[16].dt_txt[i];
+            }
+            $("#date3").text(dt3);
+            $("#temp3").text(ctemp3 + "°C");
+            $("#humidity3").text(response.list[16].main.humidity);
+            $("#weather3").text(response.list[16].weather[0].description);
+
+            var ctemp4 = parseInt((response.list[24].main.temp - 32) * 5 / 9);
+            var dt4 = ""
+            for (var i = 5; i < 10; i++) {
+                dt4 = dt4 + response.list[24].dt_txt[i];
+            }
+            $("#date4").text(dt4);
+            $("#temp4").text(ctemp4 + "°C");
+            $("#humidity4").text(response.list[24].main.humidity);
+            $("#weather4").text(response.list[24].weather[0].description);
+
+            var ctemp5 = parseInt((response.list[32].main.temp - 32) * 5 / 9);
+            var dt5 = ""
+            for (var i = 5; i < 10; i++)
+            {
+                dt5 = dt5 + response.list[32].dt_txt[i];
+            }
+            $("#temp5").text(ctemp5 + "°C");
+            $("#humidity5").text(response.list[32].main.humidity);
+            $("#weather5").text(response.list[32].weather[0].description);
+            $("#date5").text(dt5);
+
+
+            });
+
+    });
+
+</script>-->

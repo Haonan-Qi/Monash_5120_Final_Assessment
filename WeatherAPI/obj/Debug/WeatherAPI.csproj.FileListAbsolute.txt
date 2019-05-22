@@ -1,0 +1,1074 @@
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\ApplicationInsights.config
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\csc.exe
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\vbc.exe
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\WeatherAPI.dll.config
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\WeatherAPI.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\WeatherAPI.pdb
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.Web.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Helpers.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Mvc.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Razor.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Webpages.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.Web.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Razor.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Webpages.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Helpers.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\bin\System.Web.Mvc.xml
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\obj\Debug\WeatherAPI.dll
+c:\users\alw15\documents\visual studio 2015\Projects\WeatherAPI\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\alw15\Documents\Visual Studio 2015\Projects\weatherAPI\WeatherAPI\bin\EntityFramework.dll
+C:\Users\alw15\Documents\Visual Studio 2015\Projects\weatherAPI\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\alw15\Documents\Visual Studio 2015\Projects\weatherAPI\WeatherAPI\bin\EntityFramework.xml
+C:\Users\alw15\Documents\Visual Studio 2015\Projects\weatherAPI\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\alw15\Documents\Visual Studio 2015\Projects\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+E:\Information Technology\weatherAPI\WeatherAPI\bin\ApplicationInsights.config
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\csc.exe
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\vbc.exe
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+E:\Information Technology\weatherAPI\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\Information Technology\weatherAPI\WeatherAPI\bin\WeatherAPI.dll.config
+E:\Information Technology\weatherAPI\WeatherAPI\bin\WeatherAPI.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\WeatherAPI.pdb
+E:\Information Technology\weatherAPI\WeatherAPI\bin\EntityFramework.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\EntityFramework.SqlServer.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.Web.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Helpers.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Mvc.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Razor.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Webpages.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\EntityFramework.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\EntityFramework.SqlServer.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.Web.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Razor.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Webpages.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Helpers.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Web.Mvc.xml
+E:\Information Technology\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.dll
+E:\Information Technology\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.pdb
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Newtonsoft.Json.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Newtonsoft.Json.xml
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\sqlcese40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\sqlceqp40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\sqlceme40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\sqlceer40EN.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\sqlcecompact40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\sqlceca40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\sqlcese40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\sqlceqp40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\sqlceme40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\sqlceer40EN.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\sqlcecompact40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\sqlceca40.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\Information Technology\weatherAPI\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Information Technology\weatherAPI\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\Information Technology\weatherAPI\WeatherAPI\bin\System.Data.SqlServerCe.dll
+E:\Information Technology\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\EntityFramework.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\EntityFramework.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\WebGrease.dll
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\alw15\Desktop\weatherAPI\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+D:\weatherAPI_3@9.20\WeatherAPI\bin\ApplicationInsights.config
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._csc.exe
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._vbc.exe
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\csc.exe
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\vbc.exe
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+D:\weatherAPI_3@9.20\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+D:\weatherAPI_3@9.20\WeatherAPI\bin\WeatherAPI.dll.config
+D:\weatherAPI_3@9.20\WeatherAPI\bin\WeatherAPI.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\WeatherAPI.pdb
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\sqlcese40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\sqlceqp40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\sqlceme40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\sqlceer40EN.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\sqlcecompact40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\sqlceca40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\sqlcese40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\sqlceqp40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\sqlceme40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\sqlceer40EN.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\sqlcecompact40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\sqlceca40.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\weatherAPI_3@9.20\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Antlr3.Runtime.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\EntityFramework.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\EntityFramework.SqlServer.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.Web.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Newtonsoft.Json.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Data.SqlServerCe.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Helpers.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Mvc.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Optimization.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Razor.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Webpages.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\WebGrease.dll
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Antlr3.Runtime.pdb
+D:\weatherAPI_3@9.20\WeatherAPI\bin\EntityFramework.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\EntityFramework.SqlServer.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.Web.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\Newtonsoft.Json.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Optimization.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Razor.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Webpages.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Helpers.xml
+D:\weatherAPI_3@9.20\WeatherAPI\bin\System.Web.Mvc.xml
+D:\weatherAPI_3@9.20\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+D:\weatherAPI_3@9.20\WeatherAPI\obj\Debug\WeatherAPI.dll
+D:\weatherAPI_3@9.20\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WebGrease.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csprojAssemblyReference.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\UI集合页面\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._csc.exe
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._vbc.exe
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\WebGrease.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\alw15\Desktop\最新项目文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\WebGrease.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csprojAssemblyReference.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._csc.exe
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._vbc.exe
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\WebGrease.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\alw15\Desktop\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.pdb
+E:\weatherAPI_3@9.27\WeatherAPI\bin\ApplicationInsights.config
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._csc.exe
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._vbc.exe
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\csc.exe
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\vbc.exe
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+E:\weatherAPI_3@9.27\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll.config
+E:\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\WeatherAPI.pdb
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcese40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceqp40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceme40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceer40EN.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlcecompact40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\sqlceca40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcese40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceqp40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceme40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceer40EN.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlcecompact40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\sqlceca40.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\weatherAPI_3@9.27\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Data.SqlServerCe.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\WebGrease.dll
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Antlr3.Runtime.pdb
+E:\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\EntityFramework.SqlServer.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.Web.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\Newtonsoft.Json.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Optimization.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Razor.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Helpers.xml
+E:\weatherAPI_3@9.27\WeatherAPI\bin\System.Web.Mvc.xml
+E:\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+E:\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.dll
+E:\weatherAPI_3@9.27\WeatherAPI\obj\Debug\WeatherAPI.pdb
+E:\weatherAPI@10.7\WeatherAPI\bin\ApplicationInsights.config
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._csc.exe
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._vbc.exe
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\csc.exe
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\vbc.exe
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+E:\weatherAPI@10.7\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+E:\weatherAPI@10.7\WeatherAPI\bin\WeatherAPI.dll.config
+E:\weatherAPI@10.7\WeatherAPI\bin\WeatherAPI.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\WeatherAPI.pdb
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\sqlcese40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\sqlceqp40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\sqlceme40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\sqlceer40EN.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\sqlcecompact40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\sqlceca40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\sqlcese40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\sqlceqp40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\sqlceme40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\sqlceer40EN.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\sqlcecompact40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\sqlceca40.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\weatherAPI@10.7\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+E:\weatherAPI@10.7\WeatherAPI\bin\Antlr3.Runtime.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\EntityFramework.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\EntityFramework.SqlServer.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.Web.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Newtonsoft.Json.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Data.SqlServerCe.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Helpers.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Mvc.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Optimization.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Razor.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Webpages.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\WebGrease.dll
+E:\weatherAPI@10.7\WeatherAPI\bin\Antlr3.Runtime.pdb
+E:\weatherAPI@10.7\WeatherAPI\bin\EntityFramework.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\EntityFramework.SqlServer.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.Web.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+E:\weatherAPI@10.7\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\Newtonsoft.Json.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Optimization.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Razor.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Webpages.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Helpers.xml
+E:\weatherAPI@10.7\WeatherAPI\bin\System.Web.Mvc.xml
+E:\weatherAPI@10.7\WeatherAPI\obj\Debug\WeatherAPI.csprojResolveAssemblyReference.cache
+E:\weatherAPI@10.7\WeatherAPI\obj\Debug\WeatherAPI.dll
+E:\weatherAPI@10.7\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WebGrease.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.csprojAssemblyReference.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\ApplicationInsights.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\._VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\csc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\vbc.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WeatherAPI.dll.config
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WeatherAPI.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlcese40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceqp40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceme40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceer40EN.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlcecompact40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\sqlceca40.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\README_ENU.txt
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\msvcr90.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\amd64\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\x86\Microsoft.VC90.CRT\Microsoft.VC90.CRT.manifest
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Antlr3.Runtime.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.Web.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Newtonsoft.Json.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Oracle.ManagedDataAccess.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Data.SqlServerCe.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Helpers.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Mvc.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Optimization.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Razor.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\WebGrease.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.Web.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\Newtonsoft.Json.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Optimization.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Webpages.Razor.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Helpers.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\bin\System.Web.Mvc.xml
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.csprojAssemblyReference.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.csproj.CoreCompileInputs.cache
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.csproj.CopyComplete
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.dll
+C:\Users\Administrator.WINDOWS-UHJ7PLV\Desktop\Haonan_QI\2018-2\最新版本文件\weatherAPI@10.10\WeatherAPI\obj\Debug\WeatherAPI.pdb

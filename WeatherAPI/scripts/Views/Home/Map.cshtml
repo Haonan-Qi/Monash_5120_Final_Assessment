@@ -1,0 +1,250 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Travel Modes in Directions</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="~/Content/style.css">
+    <link rel="stylesheet" href="~/styles.min.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/img/favicon-16x16.png">
+    <link rel="shortcut icon" href="~/img/favicon.ico">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+
+    <style>
+        /* Always set the map height explicitly to define the size of the div
+        * element that contains the map. */
+        #map {
+            height: 100%;
+            margin-right: 400px;
+            position: absolute;
+            top: 1000;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+        /* Optional: Makes the sample page fill the window. */
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        #floating-panel {
+            width: 600px;
+            top: 10px;
+            height: 55px;
+            left: 25%;
+            z-index: 5;
+            background-color: #fff;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Roboto','sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+        #floating-panel2 {
+            top: 50px;
+            left: 25%;
+            width: 500px;
+            height: 55px;
+            z-index: 5;
+            background-color: #fff;
+            padding: 5px;
+            text-align: center;
+            font-family: 'Roboto','sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+        #right-panel {
+            font-family: 'Roboto','sans-serif';
+            line-height: 30px;
+            padding-left: 10px;
+        }
+
+            #right-panel select, #right-panel input {
+                font-size: 15px;
+            }
+
+            #right-panel select {
+                width: 100%;
+            }
+
+            #right-panel i {
+                font-size: 12px;
+            }
+
+        #right-panel {
+            height: 500px;
+            float: right;
+            width: 390px;
+        }
+
+        @@media print {
+            #map {
+                height: 500px;
+                margin: 0;
+            }
+
+            #right-panel {
+                float: none;
+                width: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="idance">
+
+    <!--载入页面-->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader">Loading...</div>
+    </div>
+    <!--导航页面-->
+    <nav class="navbar navbar-expand-md navbar-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#" data-scroll-goto="0">Time 2 GO </a>
+            <!-- Navbar toggler. Shown for mobile devices (https://getbootstrap.com/docs/4.0/components/navbar/#toggler) -->
+            <button class="navbar-toggler"
+                    type="button"
+                    data-toggle="collapse"
+                    data-target="#idanceNav"
+                    aria-controls="idanceNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+
+            <!-- Navbar -->
+            <div class="collapse navbar-collapse" id="idanceNav">
+                <i class="fa fa-times close-navbar-mobile" aria-hidden="true" data-toggle="collapse" data-target="#idanceNav"></i>
+                <ul class="navbar-nav ml-auto">
+                    <li><a href="@Url.Action("Index","Home")" class="nav-link">Home</a></li>
+                    <li><a href="@Url.Action("SportsIntroduction","Home")" class="nav-link">Sports Introduction</a></li>
+                    <li><a href="@Url.Action("SportsLocation","Home")" class="nav-link">Sports Location</a></li>
+                    <li><a href="@Url.Action("Calories","Home")" class="nav-link">Calories Schedule</a></li>
+                    <li><a href="@Url.Action("Weather","Home")" class="nav-link">Weather</a></li>
+                    <li><a href="@Url.Action("Food","Home")" class="nav-link">Healthy Eating</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--地图页面-->
+    <section data-scroll-index="0" class="mappage bg-darken" style="z-index: 1">
+        <div class="container">
+
+            <div class="row card">
+
+                <div style="text-align:center;">
+                    <b style="color:white;font-family:sans-serif">Mode of Travel: </b>
+                    <select id="mode">
+                        <option value="DRIVING">Driving</option>
+                        <option value="WALKING">Walking</option>
+                        <option value="BICYCLING">Bicycling</option>
+                        <option value="TRANSIT">Public Transport</option>
+                    </select>
+                    <b style="color:white;font-family:sans-serif">Your address: </b>
+                    <input id="address" type="textbox">
+                    <input id="submit" type="button" value="submit">
+                </div>
+            </div>
+
+            <div id="right-panel"></div>
+            <div id="map" style="height: 500px;position: relative;"> </div>
+
+
+        </div>
+    </section>
+
+    <script>
+        var sportsLocation = {lat: @ViewBag.latitude, lng: @ViewBag.longtitude }; //to connect data
+
+        function initMap() {
+
+            var directionsDisplay = new google.maps.DirectionsRenderer;
+            var directionsService = new google.maps.DirectionsService;
+            var infowindow = new google.maps.InfoWindow();
+            var geocoder = new google.maps.Geocoder;
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 14,
+                center: sportsLocation,
+            });
+            geocodeLatLng(geocoder, map, infowindow);
+
+            directionsDisplay.setMap(map);
+            directionsDisplay.setPanel(document.getElementById('right-panel'));
+
+            document.getElementById('submit').addEventListener('click', function () {
+                document.getElementById('address');
+                document.getElementById('mode');
+                calculateAndDisplayRoute(directionsService, directionsDisplay);
+            });
+        }
+
+        function geocodeLatLng(geocoder, map, infowindow) {
+
+            geocoder.geocode({ 'location': sportsLocation }, function (results, status) {
+                if (status === 'OK') {
+                    if (results[0]) {
+                        map.setZoom(12);
+                        var marker = new google.maps.Marker({
+                            position: sportsLocation,
+                            map: map
+                        });
+                        infowindow.setContent(results[0].formatted_address);
+                        infowindow.open(map, marker);
+                    } else {
+                        window.alert('No results found');
+                    }
+                } else {
+                    window.alert('Geocoder failed due to: ' + status);
+                }
+            });
+        }
+
+
+        function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+            var selectedMode = document.getElementById('mode').value;
+            directionsService.route({
+                origin: document.getElementById('address').value,
+                destination: sportsLocation,
+                // Note that Javascript allows us to access the constant
+                // using square brackets and a string value as its
+                // "property."
+                travelMode: google.maps.TravelMode[selectedMode]
+            }, function (response, status) {
+                if (status == 'OK') {
+                    directionsDisplay.setDirections(response);
+                } else {
+                    window.alert('Directions request failed due to ADDRESS ' + status);
+                }
+            });
+        }
+
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP3SA4E4fqPbOR3LbDM9-m8MgdCnoNI-k&callback=initMap">
+    </script>
+    <script src="~/scripts.min.js"></script>
+</body>
+
+</html>

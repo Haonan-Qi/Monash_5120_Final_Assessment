@@ -1,0 +1,584 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<html lang="en">
+<!--头部-->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Home Card Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
+    <link rel="stylesheet" href="~/Content/home-card.css">
+
+
+    <!--Font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Kalam:700|Kreon:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src="~/scripts/modernizr.custom.js"></script>
+
+</head>
+<!--主体-->
+<body style="background-color: #343a40 !important;height:100vh;background-attachment: scroll;background-image:url(https://images.unsplash.com/photo-1445384763658-0400939829cd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=7ca46aca5c7817d7ff48b3273e35b119);background-size:cover;background-attachment:fixed">
+    <!--导航栏部分-->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom shadow-sm" style="background-color: #f7f8fae6">
+        <a class="navbar-brand" href="@Url.Action("Index","Home")" style="font-size: 2rem;font-family: 'Kreon', serif;">Time 2 Go</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <ul class="navbar-nav" style="margin-left:auto;font-family: 'Kreon', serif;font-size: x-large;font-weight: 300">
+                <li><a href="@Url.Action("Index","Home")" class="nav-link">Home</a></li>
+                <li><a href="@Url.Action("SportsLocation","Home")" class="nav-link">Sports Location</a></li>
+                <li><a href="@Url.Action("Calories","Home")" class="nav-link">Calories Schedule</a></li>
+                <li><a href="@Url.Action("Events","Home")" class="nav-link">Events</a></li><!--事件相关链接，需要改全部page的导航部分-->
+                <li><a href="@Url.Action("Food","Home")" class="nav-link">Healthy Eating</a></li>
+                <li><a href="@Url.Action("Weather","Home")" class="nav-link">Weather</a></li>
+                <li><a href="@Url.Action("SportsIntroduction","Home")" class="nav-link">Sports Rules</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--运动计划信息输入页面-->
+    <div class="container">
+        <div class="row">
+            <h2 data-aos="zoom-in-up" style="color:white;font-family: 'Kreon';background-color: #58696acc;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;border-radius:10px;"><b>Calories Schedule</b></h2>
+        </div>
+
+        <div class="row " style="background-color:#927076cc;margin-top:5vh;border-radius:30px;font-family: 'Kreon';padding-left:10px;padding-right:10px">
+            <form action="/Home/Calories" method="get" style="padding-left: 60px;padding-right: 60px;padding-bottom: 20px;">
+
+                <div class="container" id="ct" style="padding-top: 20px;padding-bottom: 20px;">
+
+                    <div class="row" style="width: inherit;">
+                        <b style="color:white;margin-bottom: 30px;">Enter your weight: <input id="weight" class="form-control" name="weight" type="text" value="" style="width:70px;display:inline;height:30px;" />Kg</b>
+                    </div>
+
+                    <div class="row" id="div1" style="margin-bottom: 10px;">
+                        <div>
+                            <b style="color:white;">
+                                Your favourite sport:
+                                <select id="searchSports1" name="searchSports1" class="form-control" style="display:inline;width:160px;height:35px;">
+                                    <option value=""></option>
+                                    <option value="Aerobics">Aerobics</option>
+                                    <option value="Archery">Archery</option>
+                                    <option value="Australian Rules Football">Australian Rules Football</option>
+                                    <option value="Badminton">Badminton</option>
+                                    <option value="Baseball">Baseball</option>
+                                    <option value="Basketball">Basketball</option>
+                                    <option value="Bocce">Bocce</option>
+                                    <option value="Boxing">Boxing</option>
+                                    <option value="Cricket">Cricket</option>
+                                    <option value="Croquet">Croquet</option>
+                                    <option value="Cycling">Cycling</option>
+                                    <option value="Dancing">Dancing</option>
+                                    <option value="Fitness">Fitness</option>
+                                    <option value="Golf">Golf</option>
+                                    <option value="Gridiron">Gridiron</option>
+                                    <option value="Gymnastics">Gymnastics</option>
+                                    <option value="Hockey">Hockey</option>
+                                    <option value="Karate">Karate</option>
+                                    <option value="Lacrosse">Lacrosse</option>
+                                    <option value="Lawn Bowls">Lawn Bowls</option>
+                                    <option value="Martial Arts">Martial Arts</option>
+                                    <option value="Netball">Netball</option>
+                                    <option value="Rugby League">Rugby League</option>
+                                    <option value="Sailing">Sailing</option>
+                                    <option value="Skating">Skating </option>
+                                    <option value="Soccer">Soccer</option>
+                                    <option value="Softball">Softball</option>
+                                    <option value="Swimming">Swimming</option>
+                                    <option value="Table Tennis">Table Tennis</option>
+                                    <option value="Tennis">Tennis</option>
+                                    <option value="Volleyball">Volleyball</option>
+                                </select>&nbsp;&nbsp;&nbsp;&nbsp;
+                            </b>
+                        </div><br />
+
+                        <div>
+                            <b style="color:white;">How many times a week:</b>    <select id="frequence1" class="form-control" style="display:inline;width:60px;height:35px;" name="frequence1">
+                                <option value=""></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+
+                        <div>
+                            <b style="color:white;">Duration:</b>    <select id="duration1" class="form-control" style="display:inline;width:70px;height:35px;" name="duration1">
+                                <option value=""></option>
+                                <option value="0.5">0.5</option>
+                                <option value="1">1</option>
+                                <option value="1.5">1.5</option>
+                                <option value="2">2</option>
+                                <option value="2.5">2.5</option>
+                                <option value="3">3</option>
+                                <option value="3.5">3.5</option>
+                                <option value="4.5">4</option>
+                                <option value="5">5</option>
+                            </select>&nbsp;<b style="color:white;">hours</b>
+                            &nbsp;&nbsp;&nbsp;&nbsp;
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class="row" id="div2" style="display:none;margin-bottom:10px;">
+
+                        <b style="color:white;"> Your favourite sport: </b>
+                        <select id="searchSports2" name="searchSports2" class="form-control" style="display:inline;width:160px;height:35px;">
+                            <option value=""></option>
+                            <option value="Aerobics">Aerobics</option>
+                            <option value="Archery">Archery</option>
+                            <option value="Australian Rules Football">Australian Rules Football</option>
+                            <option value="Badminton">Badminton</option>
+                            <option value="Baseball">Baseball</option>
+                            <option value="Basketball">Basketball</option>
+                            <option value="Bocce">Bocce</option>
+                            <option value="Boxing">Boxing</option>
+                            <option value="Cricket">Cricket</option>
+                            <option value="Croquet">Croquet</option>
+                            <option value="Cycling">Cycling</option>
+                            <option value="Dancing">Dancing</option>
+                            <option value="Fitness">Fitness</option>
+                            <option value="Golf">Golf</option>
+                            <option value="Gridiron">Gridiron</option>
+                            <option value="Gymnastics">Gymnastics</option>
+                            <option value="Hockey">Hockey</option>
+                            <option value="Karate">Karate</option>
+                            <option value="Lacrosse">Lacrosse</option>
+                            <option value="Lawn Bowls">Lawn Bowls</option>
+                            <option value="Martial Arts">Martial Arts</option>
+                            <option value="Netball">Netball</option>
+                            <option value="Rugby League">Rugby League</option>
+                            <option value="Sailing">Sailing</option>
+                            <option value="Skating">Skating </option>
+                            <option value="Soccer">Soccer</option>
+                            <option value="Softball">Softball</option>
+                            <option value="Swimming">Swimming</option>
+                            <option value="Table Tennis">Table Tennis</option>
+                            <option value="Tennis">Tennis</option>
+                            <option value="Volleyball">Volleyball</option>
+                        </select>&nbsp;&nbsp;&nbsp;
+
+                        <b style="color:white;">How many times a week:</b>    <select id="frequence2" name="frequence2" class="form-control" style="display:inline;width:60px;height:35px;">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        &nbsp;&nbsp;&nbsp;
+
+                        <b style="color:white;">Duration:</b>    <select id="duration2" name="duration2" class="form-control" style="display:inline;width:70px;height:35px;">
+                            <option value=""></option>
+                            <option value="0.5">0.5</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4.5">4</option>
+                            <option value="5">5</option>
+                        </select>&nbsp;<b style="color:white;">hours</b>
+                        &nbsp;&nbsp;&nbsp;
+
+                    </div>
+                    <br />
+                    <div class="row" id="div3" style="display:none;margin-bottom:10px;">
+
+                        <b style="color:white;"> Your favourite sport: </b>
+                        <select id="searchSports3" name="searchSports3" class="form-control" style="display:inline;width:160px;height:35px;">
+                            <option value=""></option>
+                            <option value="Aerobics">Aerobics</option>
+                            <option value="Archery">Archery</option>
+                            <option value="Australian Rules Football">Australian Rules Football</option>
+                            <option value="Badminton">Badminton</option>
+                            <option value="Baseball">Baseball</option>
+                            <option value="Basketball">Basketball</option>
+                            <option value="Bocce">Bocce</option>
+                            <option value="Boxing">Boxing</option>
+                            <option value="Cricket">Cricket</option>
+                            <option value="Croquet">Croquet</option>
+                            <option value="Cycling">Cycling</option>
+                            <option value="Dancing">Dancing</option>
+                            <option value="Fitness">Fitness</option>
+                            <option value="Golf">Golf</option>
+                            <option value="Gridiron">Gridiron</option>
+                            <option value="Gymnastics">Gymnastics</option>
+                            <option value="Hockey">Hockey</option>
+                            <option value="Karate">Karate</option>
+                            <option value="Lacrosse">Lacrosse</option>
+                            <option value="Lawn Bowls">Lawn Bowls</option>
+                            <option value="Martial Arts">Martial Arts</option>
+                            <option value="Netball">Netball</option>
+                            <option value="Rugby League">Rugby League</option>
+                            <option value="Sailing">Sailing</option>
+                            <option value="Skating">Skating </option>
+                            <option value="Soccer">Soccer</option>
+                            <option value="Softball">Softball</option>
+                            <option value="Swimming">Swimming</option>
+                            <option value="Table Tennis">Table Tennis</option>
+                            <option value="Tennis">Tennis</option>
+                            <option value="Volleyball">Volleyball</option>
+                        </select>&nbsp;&nbsp;&nbsp;
+
+                        <b style="color:white;">How many times a week:</b>    <select id="frequence3" name="frequence3" class="form-control" style="display:inline;width:60px;height:35px;">
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        &nbsp;&nbsp;&nbsp;
+
+                        <b style="color:white;">Duration:</b>    <select id="duration3" name="duration3" class="form-control" style="display:inline;width:70px;height:35px;">
+                            <option value=""></option>
+                            <option value="0.5">0.5</option>
+                            <option value="1">1</option>
+                            <option value="1.5">1.5</option>
+                            <option value="2">2</option>
+                            <option value="2.5">2.5</option>
+                            <option value="3">3</option>
+                            <option value="3.5">3.5</option>
+                            <option value="4.5">4</option>
+                            <option value="5">5</option>
+                        </select>&nbsp;<b style="color:white;">hours</b>
+                        &nbsp;&nbsp;&nbsp;
+
+                    </div>
+                </div>
+
+                <div style="text-align: center;">
+                    <a href="javascript:abc()" id="bt1" class="btn btn-primary btn-mid active" role="button" aria-pressed="true">Add a new sport</a>&nbsp;&nbsp;
+                    <a href="javascript:abc()" id="bt2" class="btn btn-primary btn-mid active" role="button" aria-pressed="true" style="display:none;">Add a new sport</a>&nbsp;&nbsp;
+                    <input id="Button1" type="submit" aria-pressed="true" class="btn btn-success btn-mid active" value="Confirm" />&nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <script id="script1" type="text/javascript">
+
+
+                            window.onload = function abc() {
+
+                            var obt1 = document.getElementById("bt1");
+                            var odiv2 = document.getElementById("div2");
+                            var obt2 = document.getElementById("bt2");
+                            var odiv3 = document.getElementById("div3");
+                            var btt1 = document.getElementById("bt3");
+                            var div = document.getElementById("chart");
+                            var input = document.getElementById("ct");
+                            var confirm = document.getElementById("Button1");
+                            var obt4 = document.getElementById("bt4");
+                            var obt5 = document.getElementById("bt5");
+                            var fb = document.getElementById("feedback");
+                            var odiet = document.getElementById("diet");
+                            var olink = document.getElementById("link");
+
+
+                            obt1.onclick = function () {
+                                odiv2.style.display = "block";
+                                obt1.style.display = "none";
+                                obt2.style.display = "inline";
+                            }
+
+                            obt2.onclick = function () {
+                                odiv3.style.display = "block";
+                                obt2.style.display = "none";
+                                obt3.style.display = "inline";
+                            }
+
+                            if (@ViewBag.list2==0)
+                            {
+                                div.style.display="none";
+                                odiet.style.display="none";
+                                olink.style.display="none";
+                            }
+
+                            if (@ViewBag.list2!=0){
+                                div.style.display="block";
+                                odiet.style.display="block";
+                                olink.style.display="block";
+                            }
+
+                        }
+                    </script>
+
+
+                </div>
+
+            </form>
+
+            <div id="feedback" style="margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom:10px;">
+
+                <div style="color:white;text-align:center;font-size:1.5em;">
+                    @ViewBag.mess3
+                </div>
+
+                <div style="@ViewBag.messBorder;padding-left:10px;padding-right:10px;">
+                    <div style="color:white;text-align:center">
+                        @ViewBag.mess4
+                    </div>
+                    <div style="color:white;text-align:center">
+                        @ViewBag.mess5
+                    </div>
+                    <div style="color:white;text-align:center">
+                        @ViewBag.mess6
+                    </div>
+                </div>
+
+                <div style="color:white;text-align:center;font-size:1.5em;margin-top:20px;">
+                    @ViewBag.mess99
+                </div>
+
+                <div style="@ViewBag.messBorder;padding-left:10px;padding-right:10px;">
+                    <div style="color:white;text-align:center">
+                        @ViewBag.mess1
+                    </div>
+                    <div style="color:white;text-align:center">
+                        @ViewBag.mess2
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div id="diet" style="margin-left: auto;margin-right: auto;margin-top:10px;margin-bottom:10px;">
+                <div style="color:white;text-align:center;font-size:1.5em;">
+                    @ViewBag.mess7
+                </div>
+
+                <div style="@ViewBag.messBorder;padding-left:10px;padding-right:10px;">
+
+                    <div style="color:white;text-align:justify">
+                        @ViewBag.mess8
+                        <br />
+                    </div>
+                    <div style="color:white;text-align:justify">
+                        @ViewBag.mess9
+                        <br />justifys
+                    </div>
+                    <div style="color:white;text-align:justify">
+                        @ViewBag.mess10
+                        <br />
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="chart" style="margin-top:10px;margin-bottom:10px;margin-left:auto;margin-right:auto;box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);border-radius:30px;">
+
+                <!-- 直线图从这里开始 -->
+                <script type="text/javascript" src="~/scripts/fusioncharts.js"></script>
+                <!-- Include fusion theme -->
+                <script type="text/javascript" src="~/scripts/fusioncharts.theme.fusion.js"></script>
+                <script type="text/javascript">
+
+
+
+        FusionCharts.ready(function(){
+            var fusioncharts = new FusionCharts({
+                type: "msline",
+                renderAt: "chart-container",
+                width: "50%",
+                height: "50%",
+                dataFormat: "json",
+                dataSource: {
+                    // Chart Configuration
+                    "chart": {
+                        "caption": "Monthly weight loss",
+                        "yaxisname": "Weight loss",
+                        "subcaption": "[1 Month]",
+                        "numbersuffix": " ",
+                        "rotatelabels": "1",
+                        "setadaptiveymin": "1",
+                        "theme": "fusion"
+                    },
+                    "dataset": [{
+                        "seriesname": "Badminton",
+                        "data": [{
+                            "label": "0",
+                            "value": "0"
+                        }]
+                    }, {
+                        "seriesname": "Swimming",
+                        "data": [
+                       {
+                           "label": "0",
+                           "value": "0"
+                       }]
+
+                    }],
+
+                }
+            });
+
+            var i;
+            var json={
+                // Chart Configuration
+                "chart": {
+                    "caption": "Monthly weight loss",
+                    "yaxisname": "Weight loss",
+                    "subcaption": "[1 Month]",
+                    "numbersuffix": "kg ",
+                    "labelDisplay": "rotate",
+                    "slantLabel": "1",
+                    "setadaptiveymin": "1",
+                    "theme": "fusion",
+                    "baseFont": "Arial",
+                    "baseFontSize": "11",
+                    "baseFontColor": "#0066cc",
+                    "labelBorderPadding": "5",
+                    "labelBorderRadius": "2",
+                    "labelBorderDashed": "1",
+                    "labelBorderDashGap": "2",
+                    "labelBorderDashLen": "3",
+                    "labelBorderThickness": "2",
+                    "labelBorderColor": "#0066cc",
+                    "labelBorderAlpha": "40",
+                    "yAxisNameFont": "Arial",
+                    "yAxisNameFontSize": "15",
+                    "yAxisNameFontColor": "#0066cc",
+                    "yAxisNameFontBold": "1",
+                    "yAxisNameFontItalic": "1"
+
+                },
+                "categories": [{
+                    "category": [
+                        {"label": "Week0"},
+                        {
+                        "label": "Week1"
+                    }, {
+                        "label": "Week2"
+                    }, {
+                        "label": "Week3"
+                    }, {
+                        "label": "Week4"
+                    }]
+                }],
+                "dataset": [
+                    {
+                        "seriesname": "@ViewBag.plan1",
+                        "data": [{
+                            "value": "0"
+                        }]
+
+                }]
+            };
+            if (@ViewBag.list4 != 0 && @ViewBag.list5 !=0){
+                json.dataset.push({
+                    "seriesname": "@ViewBag.plan2",
+                    "data": [{
+                        "value": "0"
+                    }]
+                }, {
+                    "seriesname": "@ViewBag.plan3",
+                    "data": [
+                   {
+                       "value": "0"
+                   }]
+
+                },{
+                    "seriesname": "Combo Plan",
+                    "data": [
+                   {
+                       "value": "0"
+                   }]
+
+                });
+            }
+            if (@ViewBag.list4 != 0 && @ViewBag.list5 ==0){
+                json.dataset.push({
+                    "seriesname": "@ViewBag.plan2",
+                    "data": [{
+                        "value": "0"
+                    }]
+                },{
+                    "seriesname": "Combo Plan",
+                    "data": [
+                   {
+                       "value": "0"
+                   }]
+
+                });
+            }
+            for(i=1; i<=4; i++){
+                var newValue1 = @ViewBag.list3 *i*7/ 30;
+                var newValue2 = @ViewBag.list4 *i*7/ 30;
+                var newValue3 = @ViewBag.list5 *i*7/ 30;
+                var newValue4 = @ViewBag.list2 *i*7/ 30;
+                if (newValue2!=0&&newValue3!=0){
+                json.dataset[0].data.push({"value":newValue1});
+                json.dataset[1].data.push({"value":newValue2});
+                json.dataset[2].data.push({"value":newValue3});
+                json.dataset[3].data.push({"value":newValue4});
+                }
+                else if (newValue2==0 && newValue3==0){
+                        json.dataset[0].data.push({"value":newValue1});
+                    }
+                else if (newValue2!=0 && newValue3 == 0){
+                    json.dataset[0].data.push({"value":newValue1});
+                    json.dataset[1].data.push({"value":newValue2});
+                    json.dataset[2].data.push({"value":newValue4});
+                }
+            };
+            console.log(json);
+            fusioncharts.setJSONData(json);
+
+            fusioncharts.render();
+
+
+        });
+                </script>
+                <div id='chart-container'></div>
+            </div>
+
+            <div id="link" style="margin: 10px auto; display: block;">
+            <a href="/Home/Events?a=Basketball&amp;b=Plan2&amp;c=Plan3" class="btn btn-primary btn-mid active">Check latest events calendar to find your favourite sports event ( A star indicates an event of the selected sport(s) is available )</a>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="~/scripts.min.js"></script>
+    <script src="~/scripts/nlform.js"></script>
+    <script>
+        var nlform = new NLForm(document.getElementById('nl-form'));
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".textinput").css("display", "inline");
+        });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+
+
+
+</html>

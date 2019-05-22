@@ -1,0 +1,283 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Events</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Kalam:700|Kreon:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script src='~/scripts/lib/jquery.min.js'></script>
+    <script src='~/scripts/lib/moment.min.js'></script>
+    <script src='~/scripts/fullcalendar.min.js'></script>
+    <link href="~/Content/fullcalendar.css" rel="stylesheet" />
+
+    <link href="~/Content/jquery-ui.theme.css" rel="stylesheet" />
+    <script src="~/scripts/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>
+        //var dateList = [];
+        var events = [];
+
+        var response1;
+        var response2;
+        var result;
+        var addr;
+        var today = new Date();
+        var midDate = new Date(new Date().setDate(today.getDate() + 15));
+        var midDate2 = new Date(new Date().setDate(today.getDate() + 16));
+        var endDate = new Date(new Date().setDate(today.getDate() + 30));
+
+
+        today = dateToString(today);
+        midDate = dateToString(midDate);;
+        midDate2 = dateToString(midDate2);
+        endDate = dateToString(endDate);
+
+
+        function dateToString(date) {
+            var aa = date.getDate();
+            var bb = date.getMonth() + 1;
+            var cc = date.getFullYear();
+            if (aa < 10) {
+                aa = '0' + aa
+            }
+            if (bb < 10) {
+                bb = '0' + bb
+            }
+            var string = cc + '-' + bb + '-' + aa;
+            return string;
+
+        }
+
+        var HttpClient = function () {
+            this.get = function (aUrl, aCallback) {
+                var anHttpRequest = new XMLHttpRequest();
+                anHttpRequest.onreadystatechange = function () {
+                    if (anHttpRequest.readyState == 4 && anHttpRequest.status == 200)
+                        aCallback(anHttpRequest.responseText);
+                }
+                anHttpRequest.open("GET", aUrl, true);
+                anHttpRequest.setRequestHeader('Authorization', 'Bearer H1YxqduHu1ocDZHmpoWWx5FvVMS1Nr');
+                anHttpRequest.setRequestHeader('Accept', 'application/json');
+                anHttpRequest.send(null);
+            }
+        }
+         var theurl = 'https://api.predicthq.com/v1/events/calendar/?category=sports&labels=all&place.scope=2158177&rank_level=3,4,5&active.gte=' + today + '&active.lte=' + endDate;
+        var client = new HttpClient();
+        client.get(theurl, function (response) {
+            response1 = JSON.parse(response);
+
+            $(document).ready(function () {
+                $('#calendar').fullCalendar({
+
+                    height: 400,
+                    aspectRatio: 1.5,
+
+                    navLinks: true,
+                    header: {
+                        left: 'prev,next today',
+                        center: 'title',
+                        right: 'month,agendaWeek,agendaDay'
+                    },
+
+                    eventLimit: true,
+
+                    events: [
+                        {
+                            title: 'My Event',
+                            start: '2018-08-01',
+                            description: 'This is a cool event'
+                        }
+
+
+
+                    ],
+
+
+                    eventRender: function (event, element, view) {
+                        if ((view.name == "agendaDay" || view.name == "agendaWeek") && event.description != null) {
+                            element.find('.fc-title').append("<br/>" +event.label+ "<br/>" + "Click To Show More");
+                        };
+                        if (view.name == "month" && (event.label == '@ViewBag.a' || event.label == '@ViewBag.b' || event.label == '@ViewBag.c')) {
+
+                            $('.fc-day-top[data-date="' + event.start._i.substring(0, 10) + '"]').append("<img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAMDSURBVGhD7Vm7ihRBFG01NBETFRFlcbp7RtHEUAQREdHIwMhMDDYQU79AMDBZEYMVBUMNDIzMjHame10UTPwCIzHwhS+qPKfm9jCOd5zHVs1WQx840F117z3ndlc/pidp0KDB1sIUeUrKbn1hiuwxKbv1hNnoHDZl9ssR2zJcP2BJPbRlbkluy3C9YMvWEs/EoBG33VqS6foAxlerJoaaWZXpesB2s0O4wH/80wjHMCdh8cOU+f3RJipyTsLihimPHNDORkXOMUbC4wWM3tMaGCZjJDxOmLXWftxmv2vmh8kYxkpafMD6X9GMa2SspMUFs57vg7lvmmmNjGWOpMcB+yTZgXV/VzP8P7oc5EqZxcDaZLvZaB80RfuMKdJlPNzugM+x3t/xTqQZnYbMdTVYizVZmxrQoqbIzw53wfay0yh+DYVvg88g9naai9g33U2B2vRAL/REb5NuFEi6rhWMkfQqtnUwAJ0bLTkG0tvEJir012l8zfSbSJfF5nQwvfZV3CJ/awW3gvRCT2JvNpgyvRJDM64JeBFb8wGn8jLW5E9NYBGkNj2Inc0BR+QSCs79rJiX1KS22PADXGgXwYU9S6hFTZH3Cxyhc+BXTdgnqUEtkQ2D/lM/+6IZ8EHWpobIhYV9lZ4McTdzNVFbZMLDrHV2a0Z8kLVFJjx41DQTXrjQM4LXBNWEB878CrIZ4IKc+IFhXrK2yISHLbKXmgkvRG2RCQ/8yPmgmvBA1haZsLBFZ69mwCuhIXLhYNbzs6r4GGLNvye1uXGkhsiFA079DU18lIj7aIv8pnlzbCfptjmmxI6SGiIXDhB5oIlXxNH/DN6yr4/vkpQBOMY5xmi5FakhKeEAka4q3n/lXjHdo3skdCwY42LH/DSghoSGgbXJNhj49Lcof73lj/gdSsKmhvtOxtyR9zanAS0J8w/+STMQcx8C8qem22rL9NxgDVdr+INHyD+ETC+/0D9i2QssixMy7A2sydpOA1oy7B+mTM+bon1KdoOBGtSS3QYNGmwaSfIHRkKN0kUHTmcAAAAASUVORK5CYII='>")
+
+                    }
+                    },
+
+
+
+
+
+                    eventClick: function (event, element) {
+                        if (event.description != null && event.description != "") {
+                            geocoder(event.location[1], event.location[0], "Introduction: " + event.description);
+                        }
+                        else {
+                            geocoder(event.location[1], event.location[0], "");
+                        }
+
+                    }
+
+                });
+                for (i = 0; i < response1.results.length; i++) {
+                    if (response1.results[i].count == 1) {
+                        var event = {
+                            title: 'New event', start: response1.results[i].date, rendering: 'background',
+                            color: '#FEDEBC'
+                        };
+                    }
+                    else if (response1.results[i].count < 4) {
+                        var event = {
+                            title: 'New event', start: response1.results[i].date, rendering: 'background',
+                            color: '#FEBB74'
+                        };
+                    }
+                    else {
+                        var event = {
+                            title: 'New event', start: response1.results[i].date, rendering: 'background',
+                            color: '#FC8200'
+                        };
+                    }
+                    $('#calendar').fullCalendar('renderEvent', event, true);
+                }
+
+
+            });
+
+        });
+        var theurl2 = 'https://api.predicthq.com/v1/events/?category=sports&labels=all&place.scope=2158177&rank_level=3,4,5&active.gte=' + today + '&active.lte=' + midDate;
+        var theurl4 = 'https://api.predicthq.com/v1/events/?category=sports&labels=all&offset=10&place.scope=2158177&rank_level=3,4,5&active.gte=' + today + '&active.lte=' + midDate;
+        var theurl3 = 'https://api.predicthq.com/v1/events/?category=sports&labels=all&place.scope=2158177&rank_level=3,4,5&active.gte=' + midDate2 + '&active.lte=' + endDate;
+        var theurl5 = 'https://api.predicthq.com/v1/events/?category=sports&labels=all&offset=10&place.scope=2158177&rank_level=3,4,5&active.gte=' + midDate2 + '&active.lte=' + endDate;
+
+        var urls = [theurl2, theurl3, theurl4, theurl5];
+        var responses = [];
+        var completed_requests = 0;
+        var client = new HttpClient();
+
+        for (i in urls) {
+            client.get(urls[i], function (res) {
+                response = JSON.parse(res);
+                responses.push(response);
+
+
+                completed_requests++;
+                if (completed_requests == urls.length) {
+
+
+
+                    console.log(responses);
+
+                    for (i in responses) {
+
+                        console.log(responses[i]);
+                        for (j = 0; j < responses[i].results.length; j++) {
+
+
+                            var event = {
+                                title: responses[i].results[j].title, start: responses[i].results[j].start, end: responses[i].results[j].end, description: responses[i].results[j].description, location: responses[i].results[j].location, label: responses[i].results[j].labels[0],count: 0
+                            };
+
+                            events.push(event);
+
+                        };
+
+                    };
+
+                    console.log(events);
+                    $('#calendar').fullCalendar('renderEvents', events, true);
+
+                }
+            });
+        }
+
+
+        function geocoder(lat, long, description) {
+            var geocoder = new google.maps.Geocoder();
+            var latlng = new google.maps.LatLng(lat, long);
+            var address = "";
+            geocoder.geocode({
+                'latLng': latlng
+            }, function (results, status) {
+                if (status ==
+                    google.maps.GeocoderStatus.OK) {
+                    if (results[0]) {
+                        swal(results[0].formatted_address, description);
+                        nextStep(address);
+                        return (address);
+                    } else {
+                        swal('No results found');
+
+                    }
+                } else {
+                    alert('Geocoder failed due to: ' + status);
+                }
+            });
+
+        }
+        function nextStep(address) {
+            console.log(addr = address);
+        }
+    </script>
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBP3SA4E4fqPbOR3LbDM9-m8MgdCnoNI-k">
+    </script>
+
+
+</head>
+<body style="height:100vh;background-attachment: scroll;background-image:url(https://images.unsplash.com/photo-1445384763658-0400939829cd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=7ca46aca5c7817d7ff48b3273e35b119);background-size:cover;background-attachment:fixed">
+    <!--导航栏部分-->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom shadow-sm" style="background-color: #f7f8fae6">
+        <a class="navbar-brand" href="@Url.Action("Index","Home")" style="font-size: 2rem;font-family: 'Kreon', serif;">Time 2 Go</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <ul class="navbar-nav" style="margin-left:auto;font-family: 'Kreon', serif;font-size: x-large;font-weight: 300">
+                <li><a href="@Url.Action("Index","Home")" class="nav-link">Home</a></li>
+                <li><a href="@Url.Action("SportsLocation","Home")" class="nav-link">Sports Location</a></li>
+                <li><a href="@Url.Action("Calories","Home")" class="nav-link">Calories Schedule</a></li>
+                <li><a href="@Url.Action("Events","Home")" class="nav-link">Events</a></li><!--事件相关链接，需要改全部page的导航部分-->
+                <li><a href="@Url.Action("Food","Home")" class="nav-link">Healthy Eating</a></li>
+                <li><a href="@Url.Action("Weather","Home")" class="nav-link">Weather</a></li>
+                <li><a href="@Url.Action("SportsIntroduction","Home")" class="nav-link">Sports Rules</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row" style="margin-top:3vh">
+        <h2 data-aos="zoom-in-up" style="color:white;font-family: 'Kreon';background-color: #58696acc;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;border-radius:10px;margin-left:auto;margin-right:auto;"><b>Events</b></h2>
+    </div>
+    <div class="container" style="margin-top:3vh">
+        <div id='calendar' style="font-family: 'Kreon';border-radius:10px;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;background-color:#fcfafbcf;">
+
+            <div class="container" style="text-align:center;margin-top:20px;">
+                <div style="background-color:#FEDEBC;width:18px;height:18px;border-radius:100%;display:inline-block"></div> <div style="display:inline-block;margin-bottom:15px"> 1 event</div>
+                <div style="margin-left:20px;background-color:#FEBB74;width:18px;height:18px;border-radius:100%;display:inline-block"></div> <div style="display:inline-block;margin-right:20px;"> 2~4 events</div>
+                <div style="background-color:#FC8200;width:18px;height:18px;border-radius:100%;display:inline-block"></div> <div style="display:inline-block"> >4 events</div>
+            </div>
+
+        </div>
+    
+    </div>   
+
+</body>
+</html>

@@ -1,0 +1,830 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<html lang="en">
+<!--头部-->
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!--Home Card Css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'>
+    <link rel="stylesheet" href="~/Content/home-card.css">
+
+    <!--Font CSS-->
+    <link href="https://fonts.googleapis.com/css?family=Kalam:700|Kreon:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   
+    <!--Expand Card Css-->
+    <style>
+        *, *:before, *:after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .mainContent {
+            background: #00000080;
+            font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+        }
+
+        .cont {
+            position: relative;
+            overflow: hidden;
+            height: 70vh;
+        }
+
+        .cont__inner {
+            position: relative;
+            height: 100%;
+        }
+
+            .cont__inner:hover .el__bg:after {
+                opacity: 1;
+            }
+
+        .el {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 24%;
+            height: 100%;
+            background: #252525;
+            transition: width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s, -webkit-transform 0.6s 0.7s;
+            transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s;
+            transition: transform 0.6s 0.7s, width 0.7s, opacity 0.6s 0.7s, z-index 0s 1.3s, -webkit-transform 0.6s 0.7s;
+            will-change: transform, width, opacity;
+        }
+
+            .el:not(.s--active) {
+                cursor: pointer;
+            }
+
+        .el__overflow {
+            overflow: hidden;
+            position: relative;
+            height: 100%;
+        }
+
+        .el__inner {
+            overflow: hidden;
+            position: relative;
+            height: 100%;
+            transition: -webkit-transform 1s;
+            transition: transform 1s;
+            transition: transform 1s, -webkit-transform 1s;
+        }
+
+        .cont.s--inactive .el__inner {
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+        }
+
+        .el__bg {
+            position: relative;
+            width: calc(100vw - 140px);
+            height: 100%;
+            transition: -webkit-transform 0.6s 0.7s;
+            transition: transform 0.6s 0.7s;
+            transition: transform 0.6s 0.7s, -webkit-transform 0.6s 0.7s;
+            will-change: transform;
+        }
+
+            .el__bg:before {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: -5%;
+                width: 100%;
+                height: 110%;
+                background-size: cover;
+                background-position: center center;
+                transition: -webkit-transform 1s;
+                transition: transform 1s;
+                transition: transform 1s, -webkit-transform 1s;
+                -webkit-transform: translate3d(0, 0, 0) scale(1);
+                transform: translate3d(0, 0, 0) scale(1);
+            }
+
+        .cont.s--inactive .el__bg:before {
+            -webkit-transform: translate3d(0, -100%, 0) scale(1.2);
+            transform: translate3d(0, -100%, 0) scale(1.2);
+        }
+
+        .el.s--active .el__bg:before {
+            transition: -webkit-transform 0.8s;
+            transition: transform 0.8s;
+            transition: transform 0.8s, -webkit-transform 0.8s;
+        }
+
+        .el__bg:after {
+            content: "";
+            z-index: 1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.56);
+            opacity: 0;
+            transition: opacity 0.5s;
+        }
+
+        .cont.s--el-active .el__bg:after {
+            transition: opacity 0.5s 1.4s;
+            opacity: 1 !important;
+        }
+
+        .el__preview-cont {
+            z-index: 2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            transition: all 0.3s 1.2s;
+        }
+
+        .cont.s--inactive .el__preview-cont {
+            opacity: 0;
+            -webkit-transform: translateY(10px);
+            transform: translateY(10px);
+        }
+
+        .cont.s--el-active .el__preview-cont {
+            opacity: 0;
+            -webkit-transform: translateY(30px);
+            transform: translateY(30px);
+            transition: all 0.5s;
+        }
+
+        .el__heading {
+            color: #fff;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+
+        .el__content {
+            z-index: -1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            padding: 30px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.1s;
+        }
+
+        .el.s--active .el__content {
+            z-index: 2;
+            opacity: 1;
+            pointer-events: auto;
+            transition: all 0.5s 1.4s;
+        }
+
+        .el__text {
+            font-size: 40px;
+            color: #fff;
+        }
+
+        .el__close-btn {
+            z-index: -1;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            width: 60px;
+            height: 60px;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0s 0.45s;
+            cursor: pointer;
+        }
+
+        .el.s--active .el__close-btn {
+            z-index: 5;
+            opacity: 1;
+            pointer-events: auto;
+            transition: all 0s 1.4s;
+        }
+
+        .el__close-btn:before, .el__close-btn:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 100%;
+            height: 8px;
+            margin-top: -4px;
+            background: #fff;
+            opacity: 0;
+            transition: opacity 0s;
+        }
+
+        .el.s--active .el__close-btn:before, .el.s--active .el__close-btn:after {
+            opacity: 1;
+        }
+
+        .el__close-btn:before {
+            -webkit-transform: rotate(45deg) translateX(100%);
+            transform: rotate(45deg) translateX(100%);
+        }
+
+        .el.s--active .el__close-btn:before {
+            transition: all 0.3s 1.4s cubic-bezier(0.72, 0.09, 0.32, 1.57);
+            -webkit-transform: rotate(45deg) translateX(0);
+            transform: rotate(45deg) translateX(0);
+        }
+
+        .el__close-btn:after {
+            -webkit-transform: rotate(-45deg) translateX(100%);
+            transform: rotate(-45deg) translateX(100%);
+        }
+
+        .el.s--active .el__close-btn:after {
+            transition: all 0.3s 1.55s cubic-bezier(0.72, 0.09, 0.32, 1.57);
+            -webkit-transform: rotate(-45deg) translateX(0);
+            transform: rotate(-45deg) translateX(0);
+        }
+
+        .el__index {
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            bottom: -80px;
+            width: 100%;
+            height: 100%;
+            min-height: 250px;
+            text-align: center;
+            font-size: 20vw;
+            line-height: 0.85;
+            font-weight: bold;
+            transition: opacity 0.3s 1.4s, -webkit-transform 0.5s;
+            transition: transform 0.5s, opacity 0.3s 1.4s;
+            transition: transform 0.5s, opacity 0.3s 1.4s, -webkit-transform 0.5s;
+            -webkit-transform: translate3d(0, 1vw, 0);
+            transform: translate3d(0, 1vw, 0);
+        }
+
+        .el:hover .el__index {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+        .cont.s--el-active .el__index {
+            transition: opacity 0.3s, -webkit-transform 0.5s;
+            transition: transform 0.5s, opacity 0.3s;
+            transition: transform 0.5s, opacity 0.3s, -webkit-transform 0.5s;
+            opacity: 0;
+        }
+
+        .el__index-back, .el__index-front {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .el__index-back {
+            color: #2f3840;
+            opacity: 0;
+            transition: opacity 0.25s 0.25s;
+        }
+
+        .el:hover .el__index-back {
+            transition: opacity 0.25s;
+            opacity: 1;
+        }
+
+        .el__index-overlay {
+            overflow: hidden;
+            position: relative;
+            -webkit-transform: translate3d(0, 100%, 0);
+            transform: translate3d(0, 100%, 0);
+            transition: -webkit-transform 0.5s 0.1s;
+            transition: transform 0.5s 0.1s;
+            transition: transform 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
+            color: transparent;
+        }
+
+            .el__index-overlay:before {
+                content: attr(data-index);
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                color: #fff;
+                -webkit-transform: translate3d(0, -100%, 0);
+                transform: translate3d(0, -100%, 0);
+                transition: -webkit-transform 0.5s 0.1s;
+                transition: transform 0.5s 0.1s;
+                transition: transform 0.5s 0.1s, -webkit-transform 0.5s 0.1s;
+            }
+
+        .el:hover .el__index-overlay {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+        }
+
+            .el:hover .el__index-overlay:before {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+            }
+
+        .el:nth-child(1) {
+            -webkit-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+            -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+        }
+
+        .cont.s--el-active .el:nth-child(1):not(.s--active) {
+            -webkit-transform: scale(0.5) translate3d(0%, 0, 0);
+            transform: scale(0.5) translate3d(0%, 0, 0);
+            opacity: 0;
+            transition: opacity 0.95s, -webkit-transform 0.95s;
+            transition: transform 0.95s, opacity 0.95s;
+            transition: transform 0.95s, opacity 0.95s, -webkit-transform 0.95s;
+        }
+
+        .el:nth-child(1) .el__inner {
+            transition-delay: 0s;
+        }
+
+        .el:nth-child(1) .el__bg {
+            -webkit-transform: translate3d(0%, 0, 0);
+            transform: translate3d(0%, 0, 0);
+        }
+
+            .el:nth-child(1) .el__bg:before {
+                transition-delay: 0s;
+                background-image: url("../../img/f3.jpg");
+            }
+
+        .el:nth-child(2) {
+            -webkit-transform: translate3d(105.2083333333%, 0, 0);
+            transform: translate3d(105.2083333333%, 0, 0);
+            -webkit-transform-origin: 155.2083333333% 50%;
+            transform-origin: 155.2083333333% 50%;
+        }
+
+        .cont.s--el-active .el:nth-child(2):not(.s--active) {
+            -webkit-transform: scale(0.5) translate3d(105.2083333333%, 0, 0);
+            transform: scale(0.5) translate3d(105.2083333333%, 0, 0);
+            opacity: 0;
+            transition: opacity 0.95s, -webkit-transform 0.95s;
+            transition: transform 0.95s, opacity 0.95s;
+            transition: transform 0.95s, opacity 0.95s, -webkit-transform 0.95s;
+        }
+
+        .el:nth-child(2) .el__inner {
+            transition-delay: 0.1s;
+        }
+
+        .el:nth-child(2) .el__bg {
+            -webkit-transform: translate3d(-19.2%, 0, 0);
+            transform: translate3d(-19.2%, 0, 0);
+        }
+
+            .el:nth-child(2) .el__bg:before {
+                transition-delay: 0.1s;
+                background-image: url("../../img/f2.jpg");
+            }
+
+        .el:nth-child(3) {
+            -webkit-transform: translate3d(210.4166666667%, 0, 0);
+            transform: translate3d(210.4166666667%, 0, 0);
+            -webkit-transform-origin: 260.4166666667% 50%;
+            transform-origin: 260.4166666667% 50%;
+        }
+
+        .cont.s--el-active .el:nth-child(3):not(.s--active) {
+            -webkit-transform: scale(0.5) translate3d(210.4166666667%, 0, 0);
+            transform: scale(0.5) translate3d(210.4166666667%, 0, 0);
+            opacity: 0;
+            transition: opacity 0.95s, -webkit-transform 0.95s;
+            transition: transform 0.95s, opacity 0.95s;
+            transition: transform 0.95s, opacity 0.95s, -webkit-transform 0.95s;
+        }
+
+        .el:nth-child(3) .el__inner {
+            transition-delay: 0.2s;
+        }
+
+        .el:nth-child(3) .el__bg {
+            -webkit-transform: translate3d(-38.4%, 0, 0);
+            transform: translate3d(-38.4%, 0, 0);
+        }
+
+            .el:nth-child(3) .el__bg:before {
+                transition-delay: 0.2s;
+                background-image: url("../../img/f1.jpg");
+            }
+
+
+        .el:nth-child(4) {
+            -webkit-transform: translate3d(315.625%, 0, 0);
+            transform: translate3d(315.625%, 0, 0);
+            -webkit-transform-origin: 365.625% 50%;
+            transform-origin: 365.625% 50%;
+        }
+
+        .cont.s--el-active .el:nth-child(4):not(.s--active) {
+            -webkit-transform: scale(0.5) translate3d(315.625%, 0, 0);
+            transform: scale(0.5) translate3d(315.625%, 0, 0);
+            opacity: 0;
+            transition: opacity 0.95s, -webkit-transform 0.95s;
+            transition: transform 0.95s, opacity 0.95s;
+            transition: transform 0.95s, opacity 0.95s, -webkit-transform 0.95s;
+        }
+
+        .el:nth-child(4) .el__inner {
+            transition-delay: 0.3s;
+        }
+
+        .el:nth-child(4) .el__bg {
+            -webkit-transform: translate3d(-57.6%, 0, 0);
+            transform: translate3d(-57.6%, 0, 0);
+        }
+
+            .el:nth-child(4) .el__bg:before {
+                transition-delay: 0.3s;
+                background-image: url("../../img/diet-plan.jpg");
+            }
+
+
+
+        .el:hover .el__bg:after {
+            opacity: 0;
+        }
+
+        .el.s--active {
+            z-index: 1;
+            width: 100%;
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            transition: width 0.7s 0.7s, z-index 0s, -webkit-transform 0.6s;
+            transition: transform 0.6s, width 0.7s 0.7s, z-index 0s;
+            transition: transform 0.6s, width 0.7s 0.7s, z-index 0s, -webkit-transform 0.6s;
+        }
+
+            .el.s--active .el__bg {
+                -webkit-transform: translate3d(0, 0, 0);
+                transform: translate3d(0, 0, 0);
+                transition: -webkit-transform 0.6s;
+                transition: transform 0.6s;
+                transition: transform 0.6s, -webkit-transform 0.6s;
+            }
+
+                .el.s--active .el__bg:before {
+                    transition-delay: 0.6s;
+                    -webkit-transform: scale(1.1);
+                    transform: scale(1.1);
+                }
+
+        .icon-link {
+            position: absolute;
+            left: 5px;
+            bottom: 5px;
+            width: 32px;
+        }
+
+            .icon-link img {
+                width: 100%;
+                vertical-align: top;
+            }
+
+        .icon-link--twitter {
+            left: auto;
+            right: 5px;
+        }
+    </style>
+</head>
+<!--主体-->
+
+<body style="height:100vh;background-attachment: scroll;background-image:url(https://images.unsplash.com/photo-1445384763658-0400939829cd?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9&s=7ca46aca5c7817d7ff48b3273e35b119);background-size:cover;background-attachment:fixed">
+    <!--导航栏部分-->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom shadow-sm" style="background-color: #f7f8fae6">
+        <a class="navbar-brand" href="@Url.Action("Index","Home")" style="font-size: 2rem;font-family: 'Kreon', serif;">Time 2 Go</a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="navbar-collapse collapse" id="navbarsExample09">
+            <ul class="navbar-nav" style="margin-left:auto;font-family: 'Kreon', serif;font-size: x-large;font-weight: 300">
+                <li><a href="@Url.Action("Index","Home")" class="nav-link">Home</a></li>
+                <li><a href="@Url.Action("SportsLocation","Home")" class="nav-link">Sports Location</a></li>
+                <li><a href="@Url.Action("Calories","Home")" class="nav-link">Calories Schedule</a></li>
+                <li><a href="@Url.Action("Events","Home")" class="nav-link">Events</a></li><!--事件相关链接，需要改全部page的导航部分-->
+                <li><a href="@Url.Action("Food","Home")" class="nav-link">Healthy Eating</a></li>
+                <li><a href="@Url.Action("Weather","Home")" class="nav-link">Weather</a></li>
+                <li><a href="@Url.Action("SportsIntroduction","Home")" class="nav-link">Sports Rules</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--卡片部分-->
+    <div class="row">
+        <h2 data-aos="zoom-in-up" style="margin-left: auto;margin-right: auto;margin-top: 3vh;color:white;font-family: 'Kreon';background-color: #58696acc;padding-top: 10px;padding-bottom: 10px;padding-left: 10px;padding-right: 10px;border-radius:10px;"><b>Healthy Eating</b></h2>
+    </div>
+
+    <div class="cont s--inactive" style="margin-top:3vh;max-width:100vw;background-color: #00000080;padding-bottom: 50px;margin-left: 10vw;margin-right:10vw;border-radius: 30px;">
+        <!-- cont inner start -->
+        <div class="cont__inner" style="margin-left: 30px;margin-right: 30px;margin-top: 30px;margin-bottom: 30px;">
+            <!-- el start -->
+            <div class="el">
+                <div class="el__overflow">
+                    <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                            <h2 class="el__heading" style="color:white;font-family:'Kreon';"><b>Healthy eating tips</b></h2>
+                        </div>
+                        <div class="el__content">
+                            <div class="el__text">
+                                Healthy eating tips</br></br>
+                                <div class="table-wrapper-scroll-y" style="margin-right:5vw;display:block;  max-height: 400px;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;">
+                                    <ul style="font-size:15px;">
+                                        <li>
+                                            Avoid sugary treats and drinks loaded with sugar : Sodas and sweetened drinks
+                                            are made up of high fructose corn syrup, may contain caffeine and is loaded
+                                            with hundreds and hundreds of calories!
+                                        </li>
+                                        <li>
+                                            Avoid Skipping meals : though the notion of eating less = weight loss may
+                                            seem right, but that’s not true. Skipping meals contribute to weight gain more
+                                            than it can contribute to weight loss
+                                        </li>
+                                        <li>
+                                            Snack on Fruits : Hungry in the middle of the night? Skip the ice cream and try
+                                            to have a fruit instead
+                                        </li>
+                                        <li>
+                                            Eat breakfast : Breakfast is the most important meal of the day and that's
+                                            because most of your energy requirements is fuelled by what you eat for
+                                            breakfast!
+                                        </li>
+                                        <li>
+                                            Try limiting your meal size : Do you think you consume more than you want
+                                            to while having lunch? Try to reduce the size of your meals and eat 6-7 small
+                                            meals a day instead
+                                        </li>
+                                        <li>
+                                            Try to cut down on the salt : Salt contribute to weight gain a much as sugar
+                                            does, try to reduce your salt intake
+                                        </li>
+                                        <li>
+                                            Try to limit you visits to that fast food chain down the road : Look at the
+                                            calories associated with the food you want to consume during your visit to the
+                                            fast food chain, that might inspire you to cut down on the number of visits. Opt
+                                            for something which has a lesser calorie count instead
+                                        </li>
+                                    </ul>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                </div>
+                                </div>
+                            <div class="el__close-btn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- el end -->
+            <!-- el start -->
+            <div class="el">
+                <div class="el__overflow">
+                    <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                            <h2 class="el__heading" style="color:white;font-family:'Kreon';text-align: center;"><b>Change your thoughts associated with eating healthy</b></h2>
+                        </div>
+                        <div class="el__content">
+                            <div class="el__text">
+                                Change your thoughts associated with eating healthy<br/>
+                                <div class="table-wrapper-scroll-y" style="margin-right:5vw;display:block;  max-height: 400px;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;">
+                                    <ul style="font-size:15px;">
+                                        <li>
+                                            Healthy food isn’t always expensive : Healthy food is always associated with
+                                            being expensive, but this is not always true! Healthy does mean expensive!
+                                        </li>
+                                        <li>
+                                            Compare junk food prices against healthy food : If you still do think healthy
+                                            food is expensive make a comparison between healthy food and junk food.
+                                        </li>
+                                        <li>
+                                            Try cooking things in a different manner : Hate Kale smoothie? Try munching
+                                            on roasted Kale chips instead. Try cooking things you hate in a different manner,
+                                            you may end up building a liking towards it
+                                        </li>
+                                        <li>
+                                            Breakfast need not be unhealthy : Many of us associate cereal with high
+                                            amounts of sugar, but it doesn’t have to be! Think of alternatives like yogurt and
+                                            fruit or wholemeal cereal
+                                        </li>
+                                        
+                                    </ul>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                    </div>
+                                </div>
+                            <div class="el__close-btn">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- el end -->
+            <!-- el start -->
+            <div class="el">
+                <div class="el__overflow">
+                    <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                            <h2 class="el__heading" style="color:white;font-family:'Kreon';"><b>Food to eat</b></h2></br>
+                        </div>
+                    </div>
+                    <div class="el__content">
+                        <div class="el__text">
+                            Food to eat</br>
+                            <div class="table-wrapper-scroll-y" style="margin-right:5vw;display:block;  max-height: 400px;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;">
+                                <p style="font-size:15px;">
+                                    Figuring out what to eat can be tricky and confusing. Not knowing what to eat
+                                    and how much is a problem most of us face on a day to day basis. However, it is
+                                    essential to ensure that your diet is balanced consisting of the following:
+                                </p>
+                                <ul style="font-size:15px;">
+                                    <li>
+                                        <b>Grains</b>
+                                        <ul style="margin-left: 20px;">
+                                            <li>
+                                                What are they?: Grain foods comprise of foods made from wheat, rice, rye, barley, corn,
+                                                quinoa, millet and oats. These grains can be cooked together or even ground
+                                                into flour to make a variety of foods like bread and pasta.
+                                            </li>
+                                            <li>
+                                                How much do I need to consume?: About 6-8 ounces of grains a day is the daily dietary recommendation.
+                                                Example - An english Muffin contains 2 ounces of grains.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Vegetables</b>
+                                        <ul style="margin-left: 20px;">
+                                            <li>
+                                                What are they?: There are essentially five types of vegetables: 1.Dark green, like spinach,
+                                                broccoli, kale, and romaine lettuce; 2. Red and orange, like carrots, tomatoes,
+                                                red peppers, and sweet potatoes; 3. Beans and peas, like split peas and pinto
+                                                beans; 4. Starchy, like potatoes, green peas, and corn; 5. Other, like celery,
+                                                iceberg lettuce, green beans, green pepper and onions
+                                            </li>
+                                            <li>
+                                                How much do I need to consume?: About 2 - 2.5 cups of vegetable intake a day is what is recommended.
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <b>Fruits</b>
+                                        <ul style="margin-left: 20px;">
+                                            <li>
+                                                What are they?: Fruits can be frozen, dried, canned or fresh. There are many types of fruits -
+                                                examples include melons, apples, berries, citrus fruits etc
+                                            </li>
+                                            <li>
+                                                How much do I need to consume?:About 1.5 cups of fruits is the recommended daily consumption
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <br/>
+                                <br/>
+                                <br/>
+                            </div>
+                            </div>
+                        <div class="el__close-btn">
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- el end -->
+            <!-- el start -->
+            <div class="el">
+                <div class="el__overflow">
+                    <div class="el__inner">
+                        <div class="el__bg"></div>
+                        <div class="el__preview-cont">
+                            <h2 class="el__heading" style="color:white;font-family:'Kreon';"><b>Diet Plan</b></h2></br>
+                        </div>
+                    </div>
+                    <div class="el__content">
+                            <div class="el__text">
+                                What do I eat to lose weight?</br>
+                                <div class="table-wrapper-scroll-y" style="margin-right:5vw;display:block;  max-height: 400px;overflow-y: auto;-ms-overflow-style: -ms-autohiding-scrollbar;">
+                                    <p style="font-size:15px;">
+                                        <br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Losing weight can be attributed not only to training and exercising on a regular basis, but also
+                                        to the diet followed by an individual. One pound of fat consists of 3500 calories, so as to say
+                                        that if you consume 3500 calories more that you usually do, and a rate where this cannot be
+                                        burned down, then you might gain an extra pound!<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Essentially losing weight is a combined effort that requires regular exercise and eating
+                                        healthy.<br />
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;When it comes to diet, in order to lose one kilogram of weight, the body needs to create a
+                                        deficit of 7,700 calories. This sounds scaries that it actually is. But losing one kilogram is not
+                                        that hard at all. Your body needs to lose 7,700 calories more than it consumes. The
+                                        recommended daily diet requirements of a women suggests that one should consume over
+                                        2,000 - 2,500 calories per day.<br />
+                                    </p>
+                                    <p style="font-size:15px;">
+                                        <b>To lose 5Kgs in a month, what do I eat?<br /></b>
+                                        Breakfast - a portion (20 grams) of protein - eggs, yogurt, smoked salmon + a portion (20
+                                        grams) of carbs - a slice of whole grain bread (or) a bowl of whole grain cereal and milk.<br />
+                                        Lunch - About two cups of vegetables is highly recommended with a wrap (or) sashimi with
+                                        a bowl of vegetables.<br />
+                                        Dinner - It is essential to note that this should be the lightest meal of the day. So a
+                                        combination of boiled white fish and salad or a few pieces of chicken with soup would be
+                                        ideal.<br />
+                                    </p>
+
+                                    <p style="font-size:15px;">
+                                        <b>To lose 10Kgs in a month, what do I eat?<br /></b>
+                                        First thing you must develop a habit of is to detox as soon as you wake up!<br />
+                                        At around 7-7:30, mix 1 tsp of Apple cider vinegar and ½ tsp of cayenne pepper i a glass of
+                                        warm water and drink up this mixture.<br />
+                                        Breakfast - ½ cup of oatmeal with ½ cup of skim milk, (or) a glass of green tea with an
+                                        omelette made up of two egg white and a slice of whole grain toast.<br />
+                                        Mid morning snack - a bowl of lean fruits.<br />
+                                        Lunch - a bowl of vegetable soup with two slices of whole grain bread (or) grilled salmon<br />
+                                    </p>
+                                    <br/>
+                                    <br/>
+                                    <br/>
+                                </div>
+
+                            <div class="el__close-btn">
+
+
+
+                            </div>
+                        </div>
+                        </div>
+                </div>
+            </div>
+            <!-- el end -->
+
+        </div>
+    </div>
+
+
+
+
+    <script>
+        var $cont = document.querySelector('.cont');
+        var $elsArr = [].slice.call(document.querySelectorAll('.el'));
+        var $closeBtnsArr = [].slice.call(document.querySelectorAll('.el__close-btn'));
+
+        setTimeout(function () {
+            $cont.classList.remove('s--inactive');
+        }, 200);
+
+        $elsArr.forEach(function ($el) {
+            $el.addEventListener('click', function () {
+                if (this.classList.contains('s--active')) return;
+                $cont.classList.add('s--el-active');
+                this.classList.add('s--active');
+            });
+        });
+
+        $closeBtnsArr.forEach(function ($btn) {
+            $btn.addEventListener('click', function (e) {
+                e.stopPropagation();
+                $cont.classList.remove('s--el-active');
+                document.querySelector('.el.s--active').classList.remove('s--active');
+            });
+        });
+    </script>
+    <script src="~/scripts.min.js"></script>
+
+</body>
+</html>
+
+
+
